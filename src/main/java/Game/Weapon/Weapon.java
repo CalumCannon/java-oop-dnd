@@ -1,9 +1,11 @@
 package Game.Weapon;
 
 import java.util.ArrayList;
-import java.util.Random;
 
 public class Weapon implements IWeapon {
+
+    private ArrayList<WeaponEnum> list;
+    private WeaponEnum weapon;
 
     public Weapon() {
         list = new ArrayList<WeaponEnum>();
@@ -25,7 +27,7 @@ public class Weapon implements IWeapon {
         return weapon.name();
     }
 
-    public int getValue(){
+    public int getValue() {
         return weapon.getValue();
     }
 
