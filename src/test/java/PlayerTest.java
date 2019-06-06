@@ -30,4 +30,13 @@ public class PlayerTest {
 
         assertEquals(30, player.getLootValue());
     }
+
+    @Test
+    public void removeLoot() {
+        player.addLoot(loot.getLootByIndex(0));
+        player.addLoot(loot.getLootByIndex(0));
+        player.removeLoot();
+
+        assertEquals(1, player.getLootCount());
+    }
 }
