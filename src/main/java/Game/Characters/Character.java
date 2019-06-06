@@ -7,7 +7,7 @@ public abstract class Character {
 
     private String name;
     private int health;
-    ArrayList<Weapon> weapons;
+    private ArrayList<Weapon> weapons;
 
 
     public Character(String name, int health){

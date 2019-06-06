@@ -1,6 +1,7 @@
 package Game.Weapon;
 
 import java.util.ArrayList;
+
 import java.util.Random;
 
 public class Weapon {
@@ -32,6 +33,10 @@ public class Weapon {
     public int getValue(){
         return weapon.getValue();
     }
+
+
+
+
 
     public void setWeaponType(WeaponEnum weapon) {
         this.weapon = weapon;
