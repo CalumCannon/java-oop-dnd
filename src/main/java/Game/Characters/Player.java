@@ -11,8 +11,8 @@ public class Player extends Character {
         super(name, health);
     }
 
-    public void addLoot(Loot loot){
-        this.lootBag
-    }
+//    public void addLoot(Loot loot){
+//        this.lootBag
+//    }
 
 }
