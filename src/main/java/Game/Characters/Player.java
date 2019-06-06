@@ -1,4 +1,5 @@
 package Game.Characters;
+
 import Game.Loot.Loot;
 import Game.Loot.LootEnum;
 import Game.Weapon.Weapon;
@@ -31,3 +32,4 @@ public class Player extends Character {
     }
 
 }
+

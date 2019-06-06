@@ -3,7 +3,9 @@ package Game.Weapon;
 public enum WeaponEnum {
 
     AXE(4),
-    Spear(5);
+    SPEAR(5),
+    DAGGER(3),
+    ZARGOSSPEAROFFEAR(6);
 
     private int value;
 
@@ -14,4 +16,5 @@ public enum WeaponEnum {
     public int getValue() {
         return value;
     }
+
 }
