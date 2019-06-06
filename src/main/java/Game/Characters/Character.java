@@ -9,7 +9,6 @@ public abstract class Character {
     private int health;
     private ArrayList<Weapon> weapons;
 
-
     public Character(String name, int health){
         this.name = name;
         this.health = health;
