@@ -5,10 +5,6 @@ import java.util.Random;
 
 public class Weapon implements IWeapon {
 
-    WeaponEnum weapon;
-    ArrayList<WeaponEnum> list;
-
-
     public Weapon() {
         list = new ArrayList<WeaponEnum>();
         weapon = getWeapon();
