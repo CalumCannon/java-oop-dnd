@@ -3,7 +3,7 @@ package Game.Weapon;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class Weapon {
+public class Weapon implements IWeapon {
 
     WeaponEnum weapon;
     ArrayList<WeaponEnum> list;

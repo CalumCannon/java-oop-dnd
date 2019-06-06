@@ -2,7 +2,7 @@ package Game.Weapon;
 
 import java.util.ArrayList;
 
-public class Spell {
+public class Spell implements IWeapon{
 
     SpellEnum spell;
     ArrayList<SpellEnum> list;
